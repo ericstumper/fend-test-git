@@ -1,7 +1,9 @@
-import myFunction, { multiply } from "./myModule";
+import myFunction, { multiply, substract } from "./myModule";
 
 myFunction();
 
 const result = multiply(2, 5);
 
-console.log(result);
+const anotherResult = substract(4, 2);
+
+console.log(result, anotherResult);
